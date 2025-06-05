@@ -44,6 +44,7 @@ html {
   max-width: 100%;
   height: auto;
   border-radius: 100%;
+  border: 1px solid #336ea2;
 }
 #home .name h2 {
   margin-bottom: 0.75rem;
@@ -121,4 +122,29 @@ html {
   font-size: 0.8rem;
   margin-bottom: 0.25rem;
   opacity: 0.6;
+}
+
+#contact {
+  color: #fff;
+  padding: 1rem;
+}
+#contact .contact-form {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact-form ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+}
+#contact .contact-form ul li a {
+  padding: 1rem;
+  font-size: 2rem;
+}
+#contact .contact-form ul li a:hover {
+  opacity: 0.8;
 }
